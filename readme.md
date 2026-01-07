@@ -28,9 +28,6 @@ Berikut beberapa hal yang perlu diinstal terlebih dahulu:
 
 ### Preview Gambar
 
-_Tampilan Login_
-![Image 1](https://i.imgur.com/YsR6xWS.png)
-
 _Dashboard_
 ![Image 2](https://i.imgur.com/IOgIyIi.png)
 
