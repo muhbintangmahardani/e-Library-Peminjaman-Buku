@@ -1,8 +1,8 @@
-# Pembuat
+# Tim yang berkontribusi dalam pengembangan code ini - Kelas 17.6A.26 - Universitas Bina Sarana Informatika
 
--   **Eka Tama Prasetya** - _17225004_ - 
--   **Muh Bintang Mahardani** - _17225123_ -
--   **Taufiq Ismail** - _17215032_ - 
+-   **Eka Tama Prasetya** - _17225004_  
+-   **Muh Bintang Mahardani** - _17225123_ 
+-   **Taufiq Ismail** - _17215032_  
 
 
 
@@ -96,9 +96,7 @@ Password    : secret
 ### Dibuat dengan
 
 -   [Laravel](https://laravel.com) - Web Framework
-
-
- - 
+ 
 
 ### Lisensi
 
