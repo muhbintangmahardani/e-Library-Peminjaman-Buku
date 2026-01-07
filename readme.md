@@ -1,17 +1,23 @@
-# Inven BS
+# Pembuat
 
-Aplikasi inventaris barang sekolah menggunakan Framework Laravel 5.8. Aplikasi ini cocok untuk digunakan untuk disekolah atau umum. Aplikasi ini memiliki 3 role, yaitu _Administrator Perpustakaan_, _Operator Perpustakaan_ dan _Anggota Perpustakaan_. Beberapa CRUD menggunakan AJAX untuk pengambilan data agar mengurangi penggunaan pindah halaman.
+-   **Eka Tama Prasetya** - _17225004_ - 
+-   **Muh Bintang Mahardani** - _17225123_ -
+-   **Taufiq Ismail** - _17215032_ - 
+
+
+
+# Pengembangan Sistem E-Library Peminjaman Buku Berbasis Web Menggunakan Framework Laravel 12
+
+Pengembangan Sistem E-library ini menggunakan Framework Laravel 12. Aplikasi ini cocok untuk digunakan untuk disekolah atau umum. Aplikasi ini memiliki 3 role, yaitu _Administrator Perpustakaan_, _Operator Perpustakaan_ dan _Anggota Perpustakaan_. Beberapa CRUD menggunakan AJAX untuk pengambilan data agar mengurangi penggunaan pindah halaman.
 
 ### Prasyarat
 
 Berikut beberapa hal yang perlu diinstal terlebih dahulu:
 
 -   Composer (https://getcomposer.org/)
--   PHP 7.2.x
+-   PHP 8.1
 -   MySQL 14.5.x
--   XAMPP
-
-Jika Anda menggunakan XAMPP, untuk PHP dan MySQL sudah menjadi 1 (bundle) didalam aplikasi XAMPP.
+-   Laragon
 
 ### Fitur
 
@@ -45,14 +51,6 @@ _Histori Peminjam Buku_
 
 ### Langkah-langkah instalasi
 
--   Clone repository ini
-
-```
-https://github.com/mrizkimaulidan/perpusweb.git
-```
-
-```
-git@github.com:mrizkimaulidan/perpusweb.git
 ```
 
 -   Install seluruh packages yang dibutuhkan
@@ -102,13 +100,8 @@ Password    : secret
 
 -   [Laravel](https://laravel.com) - Web Framework
 
-### Kontribusi
 
-Silahkan request melalui kolom `Pull Requests` jika ingin melakukan kontribusi
-
-### Pembuat
-
--   **Muhammad Rizki Maulidan** - _Programmer_ - [mrizkimaulidan](https://github.com/mrizkimaulidan)
+ - 
 
 ### Lisensi
 
