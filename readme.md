@@ -85,9 +85,9 @@ Ubah nilai APP_NAME sesuai nama aplikasi
    ```bash
    php artisan migrate --seed
 
-4. **Migrasi dan seeding database**
+4. **Key Generate**
    ```bash
-   php artisan migrate --seed
+   php artisan key:generate
 
 5. **Jalankan server lokal**
    ```bash
