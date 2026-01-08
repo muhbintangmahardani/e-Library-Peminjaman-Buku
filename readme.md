@@ -1,108 +1,123 @@
-# Tim yang berkontribusi dalam pengembangan code ini - Kelas 17.6A.26 - Universitas Bina Sarana Informatika
+# Sistem E-Library Peminjaman Buku  
+**Berbasis Web menggunakan Laravel 12**
 
--   **Eka Tama Prasetya** - _17225004_  
--   **Muh Bintang Mahardani** - _17225123_ 
--   **Taufiq Ismail** - _17215032_  
+---
 
+## 👥 Tim Pengembang  
+**Kelas 17.6A.26 – Universitas Bina Sarana Informatika**
 
+- **Eka Tama Prasetya** — _17225004_  
+- **Muh Bintang Mahardani** — _17225123_  
+- **Taufiq Ismail** — _17215032_  
 
-# Pengembangan Sistem E-Library Peminjaman Buku Berbasis Web Menggunakan Framework Laravel 12
+---
 
-Pengembangan Sistem E-library ini menggunakan Framework Laravel 12. Aplikasi ini cocok untuk digunakan untuk disekolah atau umum. Aplikasi ini memiliki 3 role, yaitu _Administrator Perpustakaan_, _Operator Perpustakaan_ dan _Anggota Perpustakaan_. Beberapa CRUD menggunakan AJAX untuk pengambilan data agar mengurangi penggunaan pindah halaman.
+## 📚 Deskripsi Aplikasi
 
-### Prasyarat
+Sistem **E-Library Peminjaman Buku** ini dikembangkan menggunakan **Framework Laravel 12**.  
+Aplikasi ini dirancang untuk digunakan di **sekolah maupun instansi umum**, dengan sistem pengelolaan peminjaman buku yang terstruktur dan mudah digunakan.
 
-Berikut beberapa hal yang perlu diinstal terlebih dahulu:
+Aplikasi ini memiliki **3 role pengguna**, yaitu:
+- **Administrator Perpustakaan**
+- **Operator Perpustakaan**
+- **Anggota Perpustakaan**
 
--   Composer (https://getcomposer.org/)
--   PHP 8.1
--   MySQL 14.5.x
--   Laragon
+Beberapa fitur **CRUD** diimplementasikan menggunakan **AJAX** untuk meningkatkan pengalaman pengguna dengan mengurangi perpindahan halaman.
 
-### Fitur
+---
 
--   CRUD Pengguna
--   CRUD Kategori Buku
--   CRUD Buku
--   Informasi peminjaman dari pengguna
+## ⚙️ Prasyarat Sistem
 
-### Preview Gambar
+Pastikan perangkat telah terinstal:
 
-_Dashboard_
-![Image 2](https://i.imgur.com/IOgIyIi.png)
+- [Composer](https://getcomposer.org/)
+- PHP **8.1**
+- MySQL **14.5.x**
+- Laragon
 
-_Daftar Pengguna_
-![Image 3](https://i.imgur.com/e3rkQ45.png)
+---
 
-_Daftar Kategori Buku_
-![Image 4](https://i.imgur.com/WVEAyKi.png)
+## ✨ Fitur Aplikasi
 
-_Daftar Buku_
-![Image 5](https://i.imgur.com/3Jarbbv.png)
+- CRUD Pengguna  
+- CRUD Kategori Buku  
+- CRUD Buku  
+- Informasi & histori peminjaman buku  
 
-_Daftar Peminjam Buku_
-![Image 5](https://i.imgur.com/4z18siI.png)
+---
 
-_Histori Peminjam Buku_
-![Image 5](https://i.imgur.com/nzqiVSv.png)
+## 🖼️ Preview Tampilan
 
-### Langkah-langkah instalasi
+**Dashboard**  
+![Dashboard](https://i.imgur.com/IOgIyIi.png)
 
-```
+**Daftar Pengguna**  
+![Pengguna](https://i.imgur.com/e3rkQ45.png)
 
--   Install seluruh packages yang dibutuhkan
+**Daftar Kategori Buku**  
+![Kategori Buku](https://i.imgur.com/WVEAyKi.png)
 
-```
-composer install
-```
+**Daftar Buku**  
+![Buku](https://i.imgur.com/3Jarbbv.png)
 
--   Siapkan database dan atur file .env sesuai dengan konfigurasi Anda
--   Ubah value APP_NAME= pada file .env menjadi nama aplikasi yang anda inginkan
--   Jika sudah, migrate seluruh migrasi dan seeding data
+**Daftar Peminjam Buku**  
+![Peminjam](https://i.imgur.com/4z18siI.png)
 
-```
-php artisan migrate --seed
-```
+**Histori Peminjaman Buku**  
+![Histori](https://i.imgur.com/nzqiVSv.png)
 
--   Jalankan local server
+---
 
-```
-php artisan serve
-```
+## 🚀 Langkah Instalasi
 
--   User default aplikasi untuk login
+1. **Install seluruh dependency**
+   ```bash
+   composer install
 
-##### Administrator Perpustakaan
+2. **Konfigurasi environment**
+   ```bash
+   cp .env.example .env
+Atur konfigurasi database pada file .env
 
-```
-Email       : admin@mail.com
-Password    : secret
-```
+Atur konfigurasi database pada file .env
 
-##### Operator Perpustakaan
+Ubah nilai APP_NAME sesuai nama aplikasi
 
-```
-Email       : operator@mail.com
-Password    : secret
-```
+3. **Migrasi dan seeding database**
+   ```bash
+   php artisan migrate --seed
 
-##### Anggota Perpustakaan
+4. **Migrasi dan seeding database**
+   ```bash
+   php artisan migrate --seed
 
-```
-Email       : anggota@mail.com
-Password    : secret
-```
+5. **Jalankan server lokal**
+   ```bash
+   php artisan serve
 
-### Dibuat dengan
+## 🔐 Akun Default Login
+Administrator Perpustakaan
+Email    : admin@mail.com
+Password : secret
 
--   [Laravel](https://laravel.com) - Web Framework
- 
+Operator Perpustakaan
+Email    : operator@mail.com
+Password : secret
 
-### Lisensi
+Anggota Perpustakaan
+Email    : anggota@mail.com
+Password : secret
 
-Aplikasi ini boleh untuk dibagi dan diubah. Mohon tidak untuk diperjualbelikan!
+## 🛠️ Dibuat Menggunakan
 
-### Ucapan terima kasih
+Laravel — PHP Web Framework
 
--   Stackoverflow
--   Google
+## 📄 Lisensi
+
+Aplikasi ini bebas digunakan, dibagikan, dan dimodifikasi untuk keperluan pembelajaran.
+Tidak diperbolehkan untuk diperjualbelikan.
+
+## 🙏 Ucapan Terima Kasih
+
+Terima kasih kepada seluruh rekan tim Kelas 17.6A.26 Universitas Bina Sarana Informatika, yang telah berkontribusi dan bekerja sama selama semester 6 dalam pengembangan aplikasi Sistem E-Library Peminjaman Buku ini.
+
