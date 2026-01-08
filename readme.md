@@ -79,8 +79,6 @@ Pastikan perangkat telah terinstal:
    cp .env.example .env
 Atur konfigurasi database pada file .env
 
-Atur konfigurasi database pada file .env
-
 Ubah nilai APP_NAME sesuai nama aplikasi
 
 3. **Migrasi dan seeding database**
@@ -119,5 +117,5 @@ Tidak diperbolehkan untuk diperjualbelikan.
 
 ## 🙏 Ucapan Terima Kasih
 
-Terima kasih kepada seluruh rekan tim Kelas 17.6A.26 Universitas Bina Sarana Informatika, yang telah berkontribusi dan bekerja sama selama semester 6 dalam pengembangan aplikasi Sistem E-Library Peminjaman Buku ini.
+Terima kasih kepada rekan tim Kelas 17.6A.26 Universitas Bina Sarana Informatika, yang telah berkontribusi dan bekerja sama selama semester 6 dalam pengembangan aplikasi Sistem E-Library Peminjaman Buku ini.
 
